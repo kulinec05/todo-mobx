@@ -1,0 +1,37 @@
+.todo {display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 5px;
+background-color: white;
+border-radius: 4px;
+  &_done {
+    div {
+      text-decoration: line-through;
+    }
+  }
+}
+.custom_checkbox{
+  height: 50px;
+  width: 50px;
+  margin: 0;
+}
+.todo-buttons{
+  display: flex;
+  flex-direction: column;
+}
+.remove-button{
+  height: 50px;
+  width: 50px;
+}
+.todo-text{
+
+  width: auto;
+  overflow: scroll;
+  font-size: large;
+  -moz-hyphens: auto;
+-webkit-hyphens: auto;
+-ms-hyphens: auto;
+-ms-overflow-style: none;
+}
+.todo-text::-webkit-scrollbar { width: 0; }
